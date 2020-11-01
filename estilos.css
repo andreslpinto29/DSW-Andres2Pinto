@@ -16,3 +16,63 @@ ul{text-align: left;}
     
 
 p{text-align: left;}
+/*CODIGO PARA EL MENÚ Y SUBMENÚ*/
+.menu-bar{
+    background: #005fbf;
+    /*text-align: center;*/
+  }
+  .menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+  }
+  /*Tamaño barra del menú y distancia entre items del menú*/
+  .menu-bar ul li{
+    /*width: 179px;*/
+    margin: 1px;
+    padding: 15px;
+  }
+  .menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  .active, .menu-bar ul li:hover{
+    text-decoration: underline;
+    border-radius: 3px;
+  }
+  .menu-bar .fa{
+  margin-right: 5px;
+  }
+  .sub-menu-1{
+    display: none;
+  }
+  /*CSS PARA ORGANIZAR LOS SUBMENUS*/
+  .menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #005fbf;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+  /*Dejar el submenu vertical*/
+  .menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+  }
+  /*Propiedades a los submenus*/
+  .menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  }
+  /*Quitar subrayado en puntos del ultimo submenu*/
+  .menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: antiquewhite;
+  }
+  /*FIN CÓDIGO DEL MENÚ Y SUBMENÚ*/
