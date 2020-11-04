@@ -1,6 +1,6 @@
 h1,h2,h3,h4{color: sandybrown;}
-p{color: blue;}
-ul{color: blue;}
+p{color: rgb(0, 0, 7);}
+ul{color: rgb(0, 0, 12);}
 body{font-family: Angsana 'Courier New', Courier, monospace;}
 
 body{font-family: verdana, arial, helvetica,sans-serif; font-size: medium;}
@@ -77,7 +77,7 @@ p{text-align: left;}
   .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
     color: antiquewhite;
   }
-  /*FIN CÓDIGO DEL MENÚ Y SUBMENÚ*/
+  
 
   /*CODIGO TWITTER*/
 #twitter{
